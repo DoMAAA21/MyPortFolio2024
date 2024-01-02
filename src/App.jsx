@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar';
 import Home from './views/Home';
 import About from './views/About';
+import Works from './views/Works';
 import './App.css'
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <div className="home">
         <Home />
         <About />
-        {/* <Achievements/> */}
+        <Works/>
         {/* <Projects /> */}
       
         {/* <Contact /> */}

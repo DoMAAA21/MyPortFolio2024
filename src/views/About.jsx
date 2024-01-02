@@ -86,15 +86,6 @@ const About = () => (
                 standards in the industry. Seeking opportunities to further my knowledge and
                 abilities in a collaborative and growth-oriented atmosphere.
             </p>
-            <button className="hire-me">
-                <a
-                    href="https://drive.google.com/file/d/1jUhLyp8Ww0NMzZK4gPTCoL_KMuQfd8eC/view?usp=sharing"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    GET MY CV
-                </a>
-            </button>
         </div>
         <div className="about-skills">
             <h2 className="skill-title">Front-End</h2>
