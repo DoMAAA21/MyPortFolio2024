@@ -62,7 +62,11 @@ const NavBar = () => {
           <div
             className={`menu-btn ${open ? 'opened-btn' : ''}`}
             onClick={toggleMenu}
-          />
+          >
+                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
+              
+              
+            </div>
         </div>
         <ul className={`menu ${open ? 'open' : ''}`}>
           <li>
@@ -74,7 +78,7 @@ const NavBar = () => {
               onClick={toggleMenu}
               to="home"
             >
-              Home
+              {`< Home`}
             </Link>
           </li>
           <li>
@@ -96,21 +100,9 @@ const NavBar = () => {
               offset={50}
               duration={500}
               onClick={toggleMenu}
-              to="achievements"
-            >
-              Achievement
-            </Link>
-          </li>
-          <li>
-            <Link
-              spy
-              smooth
-              offset={50}
-              duration={500}
-              onClick={toggleMenu}
               to="projects"
             >
-              Projects
+              Works
             </Link>
           </li>
           <li>
@@ -123,7 +115,7 @@ const NavBar = () => {
                 onClick={toggleMenu}
                 to="contact"
               >
-                Contact
+                {`Contact />`}
               </Link>
             </li>
           </li>

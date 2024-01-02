@@ -48,7 +48,6 @@
   
   .paragraph {
     font-size: 1.2rem;
-    text-transform: uppercase;
     color: white;
     opacity: 0.8;
     font-weight: normal;
@@ -132,6 +131,7 @@
   
     .hero-image {
       width: 35%;
+    
     }
   
     .paragraph {

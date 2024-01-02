@@ -1,6 +1,6 @@
-import { useState } from 'react'
 import NavBar from './components/NavBar';
 import Home from './views/Home';
+import About from './views/About';
 import './App.css'
 
 function App() {
@@ -10,11 +10,11 @@ function App() {
       <NavBar />
       <div className="home">
         <Home />
-        {/* <About />
-        <Achievements/>
-        <Projects />
+        <About />
+        {/* <Achievements/> */}
+        {/* <Projects /> */}
       
-        <Contact /> */}
+        {/* <Contact /> */}
         
       </div>
     </div>
