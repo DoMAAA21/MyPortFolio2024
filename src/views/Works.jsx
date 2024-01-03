@@ -12,7 +12,7 @@ const Projects = () => {
         `Embark on a journey into the heart of TreatsDelight, an exemplary project redefining the landscape of 
         canteen management. Offering more than just an Inventory Management and Ordering System, TreatsDelight encapsulates a 
         meticulous blend of innovation and functionality, ensuring an unparalleled experience for both canteen staff and customers.`,
-      tech_stack: ['ReactJS','TypeScript','Vite','Redux', 'NodeJS', 'ExpressJS','MongoDB'],
+      tech_stack: ['ReactJS','TypeScript','Tailiwind','Vite','Redux', 'NodeJS', 'ExpressJS','MongoDB'],
       source_link: 
       'https://www.flickr.com/photos/199834763@N06/albums/72177720313777132/'
         
@@ -23,9 +23,18 @@ const Projects = () => {
       description:
         `TreatsDelight Mobile, a standout mobile version of Treats Delight reshaping the canteen management scene. Beyond being a mere 
         Inventory Management and Ordering System, TreatsDelight intricately weaves innovation and functionality for an unmatched experience tailored to both canteen staff and customers.`,
-      tech_stack: ['React Native', 'Redudx', 'Expo', 'Galio Framework', 'NodeJS', 'ExpressJS'],
+      tech_stack: ['React Native', 'Redux', 'Expo', 'Galio Framework', 'NodeJS', 'ExpressJS'],
       source_link:
         'https://www.flickr.com/photos/199834763@N06/albums/72177720313781491/',
+    },
+    {
+      image_url: 'https://imgur.com/WGjOX2H.jpg',
+      project_name: 'ResQme',
+      description:
+        `ResQme is a versatile emergency web app delivering real-time data on weather, fires, earthquakes, and other crises. With an alert button for swift assistance, it ensures users receive timely and accurate information during emergencies.`,
+      tech_stack: ['React', 'Material UI', 'Real Data', 'External APIs'],
+      source_link:
+        'https://www.flickr.com/photos/199834763@N06/albums/72177720313798863/',
     },
   ]
 
