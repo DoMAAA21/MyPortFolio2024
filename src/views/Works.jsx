@@ -36,6 +36,15 @@ const Projects = () => {
       source_link:
         'https://www.flickr.com/photos/199834763@N06/albums/72177720313798863/',
     },
+    {
+      image_url: 'https://imgur.com/kTaDFY8.jpg',
+      project_name: 'ShipTrack',
+      description:
+        `Shiptrack is a versatile web app for parcel tracking and furniture shopping. Integrated with ChatGPT (although its not free anymore), it provides intelligent assistance and includes a messaging app for seamless communication`,
+      tech_stack: ['PHP', 'Laravel', 'JQuery', 'CSS','Bootstrap', 'ChatGPT','JavaScript',],
+      source_link:
+        'https://www.flickr.com/photos/199834763@N06/albums/72177720313815844/',
+    },
   ]
 
   return (

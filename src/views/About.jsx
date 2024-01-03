@@ -160,7 +160,7 @@ const About = () => (
                 </div>
                 <div className="skill">
                     <img src={CodeIgniter} alt="" />
-                    <p>Codeigniter</p>
+                    <p>CodeIgniter</p>
                 </div>
                 <div className="skill">
                     <img src={MySQL} alt="" />
