@@ -11,7 +11,7 @@ const ProjectCard = (props) => (
         ) : <span />
       }
     <i className="fa-regular fa-arrow-up-right" />
-    <img src={props.image} alt="" />
+    <img src={props.image} alt=""/>
     <div className="card-description">
       <h3>{props.title}</h3>
       <p>{props.description}</p>
