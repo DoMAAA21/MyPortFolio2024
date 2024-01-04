@@ -2,6 +2,7 @@ import NavBar from './components/NavBar';
 import Home from './views/Home';
 import About from './views/About';
 import Works from './views/Works';
+import Contact from './views/Contact';
 import './App.css'
 
 function App() {
@@ -13,9 +14,9 @@ function App() {
         <Home />
         <About />
         <Works/>
-        {/* <Projects /> */}
+        <Contact/>
       
-        {/* <Contact /> */}
+
         
       </div>
     </div>

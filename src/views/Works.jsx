@@ -9,8 +9,8 @@ const Projects = () => {
         'https://imgur.com/mG9lHxF.jpg',
       project_name: 'TreatsDelight',
       description:
-        `Embark on a journey into the heart of TreatsDelight, an exemplary project redefining the landscape of 
-        canteen management. Offering more than just an Inventory Management and Ordering System, TreatsDelight encapsulates a 
+        `TreatsDelight, an exemplary project redefining the landscape of canteen management. 
+        Offering more than just an Inventory Management and Ordering System, TreatsDelight encapsulates a 
         meticulous blend of innovation and functionality, ensuring an unparalleled experience for both canteen staff and customers.`,
       tech_stack: ['ReactJS','TypeScript','Tailiwind','Vite','Redux', 'NodeJS', 'ExpressJS','MongoDB'],
       source_link: 
