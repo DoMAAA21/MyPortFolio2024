@@ -52,6 +52,7 @@ const Projects = () => {
       <h1 className="title projects-title">Featured Projects</h1>
       <p className="projects-para">
         Developed responsive websites and mobile projects, prioritizing scalability, user-friendliness, and adherence to industry standards.
+        (These are only personal projects I can't showcase my professional works.)
       </p>
       <div className="projects-container">
         {projectData.map((project, id) => (
