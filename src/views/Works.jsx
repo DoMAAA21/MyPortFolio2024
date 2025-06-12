@@ -4,6 +4,18 @@ import ProjectCard from '../components/ProjectCard'
 
 const Projects = () => {
   const projectData = [
+     {
+      image_url:
+        'https://i.imgur.com/oRu0p38.png',
+      project_name: 'Volumes Bookshop',
+      description:
+        `Volumes Bookshop, an innovative project transforming the way bookshops operate.
+More than just a platform for purchasing and borrowing books, Volumes Bookshop combines thoughtful design with practical functionality to deliver a seamless experience for both customers and staff. It redefines bookshop management through a well-crafted system that streamlines inventory, transactions, and user interaction.`,
+      tech_stack: ['ReactJS','TypeScript','Tailiwind','Inertia','Laravel'],
+      source_link: 
+      'https://volumesbookshop.com'
+        
+    },
     {
       image_url:
         'https://imgur.com/mG9lHxF.jpg',
